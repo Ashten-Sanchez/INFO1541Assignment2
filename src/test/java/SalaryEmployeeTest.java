@@ -13,12 +13,15 @@ public class SalaryEmployeeTest {
         emp = new SalaryEmployee("Steve", "Rodgers", 3781, "Sales", "Manager", 64325);
     }
 
+//  Added test for calculateWeeklyPay method in SalaryEmployeeTest
+
     @Test
     void testCalculateWeeklyPay() {
 
         assertEquals(1237.02, emp.calculateWeeklyPay(), 0.01);
     }
 
+//  Added test for holidayBonus method in SalaryEmployeeTest
     @Test
     void testHolidayBonus() {
 

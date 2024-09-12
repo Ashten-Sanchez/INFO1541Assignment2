@@ -13,6 +13,7 @@ public class HourlyEmployeeTest {
         emp = new HourlyEmployee("Tony", "Stark", 5749, "Service", "Lead Service Manager", 32.85);
     }
 
+//  Added test for increaseHours method in HourlyEmployeeTest
     @Test
     void testIncreaseHours() {
 
@@ -23,6 +24,7 @@ public class HourlyEmployeeTest {
         assertEquals(10, emp.getHoursWorked());
     }
 
+//  Added test for annualRaise method in HourlyEmployeeTest
     @Test
     void testAnnualRaise() {
 
@@ -30,6 +32,7 @@ public class HourlyEmployeeTest {
         assertEquals(34.49, emp.getWage(), 0.01);
     }
 
+//  Added test for calculateWeeklyPay method (35 and 45 hours) in HourlyEmployeeTest
     @Test
     void testCalculateWeeklyPayWith35Hours() {
 

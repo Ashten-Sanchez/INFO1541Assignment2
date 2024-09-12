@@ -13,6 +13,7 @@ public class CommissionEmployeeTest {
         emp = new CommissionEmployee("Clint", "Barton", 6847, "Sales", "Customer Representative", .0265);
     }
 
+//  Added test for increaseSales method in CommissionEmployeeTest
     @Test
     void testIncreaseSales() {
 
@@ -23,12 +24,14 @@ public class CommissionEmployeeTest {
         assertEquals(5000, emp.getSales(), 0.01);
     }
 
+//  Added test for holidayBonus method in CommissionEmployeeTest
     @Test
     void testHolidayBonus() {
 
         assertEquals(0, emp.holidayBonus(), 0.01);
     }
 
+//  Added test for annualRaise method in CommissionEmployeeTest
     @Test
     void testAnnualRaise() {
 
